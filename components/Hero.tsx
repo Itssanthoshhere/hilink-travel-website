@@ -23,14 +23,19 @@ const Hero = () => {
         </p>
 
         <div className="flex flex-wrap gap-5 my-11">
-          <div className="flex items-center gap-2">
+          <div
+            className="flex items-center gap-2"
+            role="img"
+            aria-label="Rating: 5 out of 5 stars"
+          >
             {Array(5)
               .fill(1)
               .map((_, index) => (
                 <Image
                   src="/star.svg"
                   key={index}
-                  alt="star"
+                  alt=""
+                  aria-hidden="true"
                   width={24}
                   height={24}
                 />
