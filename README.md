@@ -1,36 +1,229 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+<div align="center">
 
-## Getting Started
+## 🌍 HiLink - Travel Website
 
-First, run the development server:
+A modern, responsive travel and camping landing page built with **Next.js 14**, **TypeScript**, and **Tailwind CSS**.
+
+
+[![Next.js](https://img.shields.io/badge/Next.js-14-black?style=for-the-badge&logo=next.js)](https://nextjs.org/)
+[![TypeScript](https://img.shields.io/badge/TypeScript-5-blue?style=for-the-badge&logo=typescript)](https://www.typescriptlang.org/)
+[![TailwindCSS](https://img.shields.io/badge/TailwindCSS-3-38BDF8?style=for-the-badge&logo=tailwind-css)](https://tailwindcss.com/)
+
+<p align="center">
+  <a href="https://hilink-travel-website.vercel.app/" target="_blank">
+    <img src="https://img.shields.io/badge/🚀%20Live%20Demo-brightgreen?style=for-the-badge&logo=vercel&logoColor=white" alt="Live Demo">
+  </a>
+  <a href="https://santhosh-vs-portfolio.vercel.app" target="_blank">
+    <img src="https://img.shields.io/badge/🌐%20Portfolio-black?style=for-the-badge&logo=vercel&logoColor=white" alt="Portfolio">
+  </a>
+  <a href="https://github.com/Itssanthoshhere/HiLink-Travel-Website" target="_blank">
+    <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub">
+  </a>
+</p>
+</div>
+
+---
+
+## 📌 Overview
+
+HiLink is a modern travel and camping landing page designed to showcase outdoor adventure experiences through a clean, responsive, and visually engaging interface.
+
+The project demonstrates modern frontend development practices using:
+
+- Next.js 14 App Router
+- TypeScript
+- Tailwind CSS
+- Responsive Design
+- Reusable Component Architecture
+
+---
+
+## ✨ Features
+
+### 🧭 Responsive Navigation
+
+- Mobile-first navigation
+- Desktop navigation menu
+- Login CTA button
+
+### 🏕️ Hero Section
+
+- Adventure-themed landing section
+- Ratings and reviews showcase
+- Download app CTA
+
+### 🌲 Camp Showcase
+
+- Horizontally scrollable campsite cards
+- Dynamic participant display
+- Adventure promotion card
+
+### 🗺️ Guide Section
+
+- Offline navigation concept showcase
+- Travel route visualization
+- Journey assistance highlights
+
+### 🚀 Features Section
+
+- Offline maps
+- Adventure scheduling
+- Augmented reality navigation
+- Global hiking community
+
+### 📱 Download CTA
+
+- App Store CTA
+- Play Store CTA
+- Mobile app promotion
+
+### 🔗 Footer
+
+- Navigation links
+- Community resources
+- Contact information
+- Social media links
+
+---
+
+## 🏗️ Project Architecture
+
+```text
+HiLink-Travel-Website
+│
+├── app
+│   ├── globals.css
+│   ├── layout.tsx
+│   └── page.tsx
+│
+├── components
+│   ├── Navbar.tsx
+│   ├── Hero.tsx
+│   ├── Camp.tsx
+│   ├── Guide.tsx
+│   ├── Features.tsx
+│   ├── GetApp.tsx
+│   ├── Footer.tsx
+│   └── Button.tsx
+│
+├── constants
+│   └── index.ts
+│
+├── public
+│   ├── images
+│   ├── icons
+│   └── assets
+│
+├── tailwind.config.js
+├── postcss.config.js
+└── package.json
+```
+
+---
+
+## 🛠️ Tech Stack
+
+| Technology   | Purpose            |
+| ------------ | ------------------ |
+| Next.js 14   | React Framework    |
+| TypeScript   | Type Safety        |
+| Tailwind CSS | Styling            |
+| React        | UI Components      |
+| Next Image   | Image Optimization |
+| Vercel       | Deployment         |
+
+---
+
+## 🚀 Installation
+
+Clone the repository:
+
+```bash
+git clone https://github.com/Itssanthoshhere/HiLink-Travel-Website.git
+```
+
+Navigate to the project:
+
+```bash
+cd HiLink-Travel-Website
+```
+
+Install dependencies:
+
+```bash
+npm install
+```
+
+Start development server:
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open:
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```text
+http://localhost:3000
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+---
 
-## Learn More
+## ⚡ Available Scripts
 
-To learn more about Next.js, take a look at the following resources:
+```bash
+npm run dev
+```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Runs development server.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+```bash
+npm run build
+```
 
-## Deploy on Vercel
+Creates production build.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+```bash
+npm run start
+```
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Starts production server.
+
+```bash
+npm run lint
+```
+
+Runs ESLint checks.
+
+---
+
+## 🔮 Future Improvements
+
+- Dark Mode
+- Authentication
+- Destination Search
+- Booking System
+- Travel Recommendations
+- Interactive Maps API
+- AI Travel Assistant
+- User Profiles
+- Saved Trips
+- Reviews & Ratings System
+
+---
+
+## 👨‍💻 Author
+
+#### Santhosh VS
+
+- **GitHub**: https://github.com/Itssanthoshhere
+- **LinkedIn**: https://www.linkedin.com/in/thesanthoshvs/
+
+---
+
+## 📜 License
+
+This project is created for educational and portfolio purposes.
+
+---
+
+⭐ If you found this project useful, consider giving it a star.
